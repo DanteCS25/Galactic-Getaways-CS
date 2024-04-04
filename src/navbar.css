@@ -17,11 +17,6 @@
        margin: 10px 0;
      }
    
-     #nav_button {
-       margin-left: 0;
-       margin-top: 20px;
-       order: 1; /* Add this line to change the order of the button */
-     }
    }
    
     .navbar {
@@ -40,7 +35,7 @@
         position: fixed; /* Fix the navbar at the top of the screen */
         top: 0; /* Place the navbar at the top of the viewport */
         left: 0; /* Align the navbar to the left edge of the viewport */
-        width: 100%; /* Make the navbar span the full width of the viewport */
+        width: 100%;
       }
 
    .navbar-logo {
@@ -63,6 +58,7 @@
      color: #fff;
      text-decoration: none;
      position: relative;
+     transition: border-bottom 0.5s ease, padding-bottom 0.5s ease; /* Adjust time as needed */
    }
 
    /* Add a purple underline to the links on hover */
@@ -92,7 +88,7 @@
    }
    
    .nav_button {
-    margin-left: 600px;
+    margin-left: auto;
     top: 24px;
     width: 160px;
     height: 55px;
@@ -104,7 +100,8 @@
     font-weight: 700px;
     padding: 16px, 80px, 16px, 80px;
     gap: 10px;
-    transition: all 10000ms ease-in;
+    transition: background-color 0.5s ease; /* Adjust time as needed */
+    margin-right: 100px;
 }
 
 .nav_button:hover {

@@ -10,7 +10,8 @@
   min-height: 100vh;
   /* Ensure the container covers the viewport height */
   background-color: #0C0519;
-  background-position: 100% 0px;
+  background-position: center; /* Center the background image */
+  background-attachment: fixed; /* Keep the background fixed */
 }
 
 #Information {
@@ -21,8 +22,8 @@
 }
 
 h2 {
-  font-size: 24px;
-  font-weight: 700px;
+  font-size: clamp(18px, 2vw, 24px);
+  font-weight: 700;
   line-height: 29.05px;
   color: white;
   font-family: 'Inter', sans-serif;
@@ -30,8 +31,8 @@ h2 {
 
 h1 {
   font-family: 'Bebas Neue', sans-serif;
-  font-weight: 400px;
-  font-size: 96px;
+  font-weight: 400;
+  font-size: clamp(72px, 8vw, 96px);
   line-height: 100px;
   color: white;
   letter-spacing: 6px;
@@ -39,8 +40,8 @@ h1 {
 
 p {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400px;
-  font-size: 20px;
+  font-weight: 400;
+  font-size: clamp(16px, 2vw, 20px);
   color: white;
   margin-top: 32px;
 }
@@ -54,11 +55,12 @@ p {
   background-color: #7920C2;
   color: white;
   font-size: 16px;
-  font-weight: 700px;
+  font-weight: 700;
   line-height: 22.4px;
   font-family: 'Inter', sans-serif;
   border: 0px;
   margin-right: 32px;
+  transition: background-color 0.5s ease, box-shadow 0.5s ease;
 }
 
 .Stay-But {
@@ -70,10 +72,11 @@ p {
   background-color: #F2994A;
   color: white;
   font-size: 16px;
-  font-weight: 700px;
+  font-weight: 700;
   line-height: 22.4px;
   font-family: 'Inter', sans-serif;
   border: 0px;
+  transition: background-color 0.5s ease, box-shadow 0.5s ease;
 }
 
 .Dest-But:hover {
@@ -100,7 +103,7 @@ p {
 .selection {
   margin-top: 50px;
   padding-top: 180px;
-  font-size: 56px;
+  font-size: clamp(40px, 5vw, 56px);
   font-weight: 400;
   line-height: 61.6px;
   font-family: 'Bebas Neue', sans-serif;
@@ -109,7 +112,7 @@ p {
 
 .selectPar {
   margin-top: 26px;
-  font-size: 24px;
+  font-size: clamp(18px, 2.5vw, 24px);
   font-weight: 400;
   line-height: 29.05px;
   font-family: 'Inter', sans-serif;
@@ -118,8 +121,8 @@ p {
 }
 
 .card {
-  width: 400px;
-  /* Each card takes up one-third of the width minus spacing */
+  width: 90%; /* Adjusted for responsiveness */
+  max-width: 400px; /* Ensures it doesn't exceed 400px */
   height: 383px;
   background: linear-gradient(to top, #180C60, #190c603f, #190c6000);
   /* Adjust colors and opacity as needed */
@@ -136,6 +139,7 @@ p {
   /* Include padding and border in the element's total width and height */
   margin: 10px;
   /* Spacing between cards */
+  transition: border-bottom 0.5s ease, padding-bottom 0.5s ease; /* Adjust time as needed */
 }
 
 .card:hover {
@@ -188,23 +192,23 @@ p {
 
 #ComingSoon{
   padding-top: 28px;
-  margin-top: 130px;
   background-image: url('./content/mobile_app_background.png');
   background-size: 100% 1250px;
   background-repeat: no-repeat;
+  background-color: #0C0519;
 }
 
 .ComingTitle{
   letter-spacing: normal;
   padding-top: 108px;
-  font-size: 56px;
+  font-size: clamp(40px, 5vw, 56px);
   font-weight: 400;
   line-height: 61.6px;
   font-family: 'Bebas Neue', sans-serif;
 }
 
 .ComingPar{
-  font-size: 24px;
+  font-size: clamp(18px, 2.5vw, 24px);
   font-weight: 400;
   line-height: 29.05px;
   font-family: 'Inter', sans-serif;
@@ -219,7 +223,7 @@ p {
 }
 
 .SubTitle{
-  font-size: 32px;
+  font-size: clamp(24px, 3vw, 32px);
   font-weight: 400;
   line-height: 35.2px;
   font-family: 'Bebas Neue', sans-serif;
@@ -257,6 +261,7 @@ p {
   font-size: 16px;
   font-weight: 700;
   line-height: 22.4px;
+  transition: background-color 0.5s ease, box-shadow 0.5s ease;
 }
 
 .JoinNews:hover{
@@ -270,3 +275,8 @@ p {
   background-color: #dd8a42;
 }
 
+#Selector {
+  background-color: #0C0519;
+  padding-bottom: 200px; /* Replace #desiredColor with the actual color code */
+  margin-top: 185px;
+}

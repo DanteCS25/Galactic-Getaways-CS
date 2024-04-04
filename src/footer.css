@@ -1,10 +1,17 @@
+footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #0C0519;
+}
+
 .bg-white {
     display: flex;
-    margin-left: 122px;
-    margin-top: 100px;
-    width: 100%;
+    padding-left: 122px;
+    padding-top: 100px;
+    max-width: 1440px;
     height: auto;
     padding-bottom: 90px;
+    background-color: #0C0519; /* Replace #desiredColor with the actual color code */
 }
 
 @media (max-width: 768px) {
@@ -79,11 +86,11 @@ span {
 
 .Follow{
     width: Fixed (86px)px;
-height: Fixed (120px)px;
-top: 304px;
-left: 1235px;
-gap: 14px;
-opacity: 0px;
-margin-left: 86px;
-margin-top: -35px;
+    height: Fixed (120px)px;
+    top: 304px;
+    left: 1235px;
+    gap: 14px;
+    opacity: 0px;
+    margin-left: 86px;
+    margin-top: -35px;
 }

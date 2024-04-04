@@ -91,6 +91,12 @@ Let your imagination soar and explore the endless possibilities with our feature
 
 
 ## Final-Outcome
+
+### Mockups
+
+![image1](src/content/Mockup_2.png)
+![image1](src/content/Mockup_1.png)
+
 ### Demo Video
 
 [View Demonstration]()

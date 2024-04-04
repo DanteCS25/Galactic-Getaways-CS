@@ -46,7 +46,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## UI-Design
 
-![image1](galactic-getaways/src/content/Design2.png)
+![image1](src\content\Design2.png)
 
 ## Credits
 
@@ -54,7 +54,7 @@ List your collaborators
 
 <div style="text-align: center;">
     <a href="https://github.com/DanteCS25">
-      <img src="galactic-getaways\src\content\profile.jpg" alt="CS Strijdom" width="100px">
+      <img src="src\content\profile.jpg" alt="CS Strijdom" width="100px">
     </a>
     <br>
     <sub>CS Strijdom</sub>
@@ -97,7 +97,7 @@ Let your imagination soar and explore the endless possibilities with our feature
 
 ### Deployement Link
 
-[Deploy on Haroku]()
+[Deploy on Github Pages](https://dantecs25.github.io/Galactic-Getaways-CS/)
 
 ## Conclusion
 ### License

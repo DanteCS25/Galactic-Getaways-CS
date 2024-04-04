@@ -1,0 +1,272 @@
+.App {
+  text-align: center;
+  background-image: url('./content/Header_background.png');
+  background-size: 100% 833px;
+  /* Set the height of the background image to 833px */
+  background-position: center;
+  /* Center the background image horizontally */
+  background-repeat: no-repeat;
+  /* Prevent the background image from repeating */
+  min-height: 100vh;
+  /* Ensure the container covers the viewport height */
+  background-color: #0C0519;
+  background-position: 100% 0px;
+}
+
+#Information {
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+  padding-top: 191px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700px;
+  line-height: 29.05px;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 400px;
+  font-size: 96px;
+  line-height: 100px;
+  color: white;
+  letter-spacing: 6px;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400px;
+  font-size: 20px;
+  color: white;
+  margin-top: 32px;
+}
+
+.Dest-But {
+  width: 260px;
+  height: 55px;
+  border-radius: 100px;
+  padding: 16px, 80px, 16px 80px;
+  gap: 10px;
+  background-color: #7920C2;
+  color: white;
+  font-size: 16px;
+  font-weight: 700px;
+  line-height: 22.4px;
+  font-family: 'Inter', sans-serif;
+  border: 0px;
+  margin-right: 32px;
+}
+
+.Stay-But {
+  width: 260px;
+  height: 55px;
+  border-radius: 100px;
+  padding: 16px, 80px, 16px 80px;
+  gap: 10px;
+  background-color: #F2994A;
+  color: white;
+  font-size: 16px;
+  font-weight: 700px;
+  line-height: 22.4px;
+  font-family: 'Inter', sans-serif;
+  border: 0px;
+}
+
+.Dest-But:hover {
+  box-shadow: 0 0 28px rgba(0, 0, 0, 0.0);
+  /* Transparent shadow */
+  -webkit-box-shadow: 0 0 28px 0px rgba(0, 0, 0, 0.8), 0 0 28px rgba(75, 34, 109, 0.6);
+  /* Gradient box shadow for WebKit */
+  -moz-box-shadow: 0 0 28px 0px rgba(0, 0, 0, 0.8), 0 0 28px rgba(75, 34, 109, 0.6);
+  /* Gradient box shadow for Firefox */
+  background-color: #6f1fb1;
+}
+
+.Stay-But:hover {
+  box-shadow: 0 0 28px rgba(0, 0, 0, 0.0);
+  /* Transparent shadow */
+  -webkit-box-shadow: 0 0 28px 0px rgba(73, 73, 73, 0.8), 0 0 28px rgb(221, 138, 66, 0.6);
+  /* Gradient box shadow for WebKit */
+  -moz-box-shadow: 0 0 28px 0px rgba(56, 56, 56, 0.8), 0 0 28px rgb(221, 138, 66, 0.6);
+  /* Gradient box shadow for Firefox */
+  background-color: #dd8a42;
+
+}
+
+.selection {
+  margin-top: 50px;
+  padding-top: 180px;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 61.6px;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: normal;
+}
+
+.selectPar {
+  margin-top: 26px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.05px;
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 120px;
+    letter-spacing: normal;
+}
+
+.card {
+  width: 400px;
+  /* Each card takes up one-third of the width minus spacing */
+  height: 383px;
+  background: linear-gradient(to top, #180C60, #190c603f, #190c6000);
+  /* Adjust colors and opacity as needed */
+  border-radius: 30px;
+  padding: 20px;
+  box-sizing: border-box;
+  /* Include padding and border in the element's total width and height */
+  margin: 10px;
+  /* Spacing between cards */
+  display: inline-block;
+  /* Cards displayed horizontally */
+  margin-top: 76px;
+  box-sizing: border-box;
+  /* Include padding and border in the element's total width and height */
+  margin: 10px;
+  /* Spacing between cards */
+}
+
+.card:hover {
+  background: linear-gradient(to top, #9747FF, #43136e70, #43136e00);
+  }
+
+.card img {
+  display: block;
+  /* Make image a block element */
+  width: 200px;
+  /* Make image fill the entire width of the card */
+  height: auto;
+  /* Maintain aspect ratio */
+  margin-bottom: 18px;
+  margin-left: 30px;
+  margin-top: -50px;
+}
+
+.card-info {
+  overflow: hidden;
+  /* Clear float */
+}
+
+.card-info h2 {
+  margin-right: 270px;
+  float: left;
+  margin-left: 32px;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 35.2px;
+  font-family: 'Bebas Neue', sans-serif;
+  border-bottom: 4px solid #F2994A;
+  /* Border width and color */
+  border-radius: 2px;
+  /* Rounded edges */
+  width: 23px;
+  /* Specific length of the border */
+  padding-bottom: 18px;
+}
+
+.pMars {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  line-height: 16.94px;
+  text-align: left;
+  /* Ensure text is left-aligned */
+  margin-left: 32px;
+}
+
+#ComingSoon{
+  padding-top: 28px;
+  margin-top: 130px;
+  background-image: url('./content/mobile_app_background.png');
+  background-size: 100% 1250px;
+  background-repeat: no-repeat;
+}
+
+.ComingTitle{
+  letter-spacing: normal;
+  padding-top: 108px;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 61.6px;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.ComingPar{
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.05px;
+  font-family: 'Inter', sans-serif;
+}
+
+#Subscribe {
+  width: 994px;
+  height: 244px;
+  background-color: #7920C2;
+  margin: 0 auto; /* Center align horizontally */
+  border-radius: 30px;
+}
+
+.SubTitle{
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 35.2px;
+  font-family: 'Bebas Neue', sans-serif;
+  padding-top: 60px;
+  margin-bottom: 32px;
+  letter-spacing: normal;
+}
+
+.input{
+  width: 311px;
+  height: 51px;
+  border: 2px solid white;
+  border-radius: 50px;
+  background-color: transparent;
+  font-size: 16px;
+  padding-left: 16px;
+  color: white;
+  font-weight: 400;
+  margin-right: 10px;
+}
+
+.input::placeholder {
+  color: #180C60; /* Placeholder color */
+  font-weight: 400;
+  line-height: 19.36px;
+}
+
+.JoinNews{
+  width: 184px;
+  height: 55px;
+  border-radius: 100px;
+  border: 0px;
+  background-color: #F2994A;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22.4px;
+}
+
+.JoinNews:hover{
+  background: linear-gradient(to right, #F2994A, #CE7629);
+  box-shadow: 4 0 4px rgba(0, 0, 0, 0.0);
+  /* Transparent shadow */
+  -webkit-box-shadow: 41 66 22px 0px rgba(73, 73, 73, 0.8), 0 0 28px rgb(221, 138, 66, 0.6);
+  /* Gradient box shadow for WebKit */
+  -moz-box-shadow: 26 42 20px 0px rgba(56, 56, 56, 0.8), 0 0 28px rgb(221, 138, 66, 0.6);
+  /* Gradient box shadow for Firefox */
+  background-color: #dd8a42;
+}
+

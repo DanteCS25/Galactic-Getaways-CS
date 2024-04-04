@@ -1,0 +1,113 @@
+@media (max-width: 768px) {
+    .navbar {
+       flex-direction: column;
+       align-items: center;
+     }
+   
+    .navbar a {
+       margin: 10px 0;
+     }
+   
+    .navbar ul {
+       flex-direction: column;
+       align-items: center;
+     }
+   
+    .navbar li {
+       margin: 10px 0;
+     }
+   
+     #nav_button {
+       margin-left: 0;
+       margin-top: 20px;
+       order: 1; /* Add this line to change the order of the button */
+     }
+   }
+   
+    .navbar {
+        background: linear-gradient(to bottom, rgba(12, 5, 25, 70), rgba(12, 5, 25, 30), rgba(12, 5, 25, 0));
+        display: flex;
+        justify-content: flex-start;
+        /* Align items to the left side */
+        align-items: center;
+        padding: 20px;
+        height: 104px;
+        /* Set the height of the container */
+        color: #fff;
+        font-size: 18px;
+        font-weight: 700px;
+        font-family: Inter;
+        position: fixed; /* Fix the navbar at the top of the screen */
+        top: 0; /* Place the navbar at the top of the viewport */
+        left: 0; /* Align the navbar to the left edge of the viewport */
+        width: 100%; /* Make the navbar span the full width of the viewport */
+      }
+
+   .navbar-logo {
+     margin-left: 117.5px;
+     margin-right: 72px;
+     /* Adjust the gap between logo and nav items */
+   }
+   
+   .navbar-nav {
+     display: flex;
+     list-style: none;
+   }
+   
+   .nav-item {
+     margin-right: 72px;
+     /* Adjust the gap between nav items */
+   }
+   
+   .nav-link {
+     color: #fff;
+     text-decoration: none;
+     position: relative;
+   }
+
+   /* Add a purple underline to the links on hover */
+.nav-link:hover {
+    border-bottom: 3px solid purple; /* Change the border width, color, and style to your preference */
+    padding-bottom: 9px; /* Adjust the padding to your preference */
+    width: 2px; /* Set the width of the underline to 23px */
+  }
+
+   .nav-link.selected::after {
+     content: '';
+     position: absolute;
+     bottom: -2px;
+     /* Adjust the distance of the underline from the text */
+     left: 12px;
+     width: 23px;
+     height: 3px;
+     /* Thickness of the underline */
+     background-color: purple;
+     /* Color of the underline */
+     top: 30.5px;
+   }
+   
+   
+   .nav-link:hover {
+     text-decoration: none;
+   }
+   
+   .nav_button {
+    margin-left: 600px;
+    top: 24px;
+    width: 160px;
+    height: 55px;
+    border-radius: 100px;
+    border: 4px solid #F2994A;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    font-weight: 700px;
+    padding: 16px, 80px, 16px, 80px;
+    gap: 10px;
+    transition: all 10000ms ease-in;
+}
+
+.nav_button:hover {
+    background: linear-gradient(to right, #F2994A, #db8a43);
+}
+

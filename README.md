@@ -46,7 +46,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## UI-Design
 
-![image1](src\content\Design2.png)
+![image1](src/content/Design2.png)
 
 ## Credits
 
